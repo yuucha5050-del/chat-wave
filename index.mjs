@@ -5,15 +5,12 @@
   <title>Discord Clone</title>
 </head>
 <body>
+  <h1>チャット</h1>
+  <input id="msg" placeholder="メッセージ">
+  <button onclick="send()">送信</button>
+  <ul id="list"></ul>
 
-<h2>チャット</h2>
-
-<div id="messages"></div>
-
-<input id="msg" placeholder="メッセージ">
-<button onclick="send()">送信</button>
-
-<script type="module" src="app.js"></script>
-
+  <script src="firebase.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
